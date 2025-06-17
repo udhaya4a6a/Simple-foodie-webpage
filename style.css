@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+           padding: 50px;
+      }
+
+    .topnav{
+    background-color: black;
+    color: white;
+    }
+.topnav__name{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: rgb(255, 174, 0);
+    transition: color 0.3s ease;
+}
+.topnav__name:hover{
+    color: white;
+    text-decoration: none;
+
+}
+.topnav__desc{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 174, 0);
+    transition: color 0.3s ease;
+}
+.topnav__desc:hover{
+    color: rgba(244, 10, 10, 0.779);
+    text-decoration: none;
+}
+.content{
+    display: flex;
+    text-align: center;
+    justify-content: center;  /* Center horizontally */
+    gap: 20px;                /* Space between cards */
+    margin-top: 20px;
+}
+.content__item1, .content__item2, .content__item3 {
+    background-color: rgb(255, 81, 0);
+    color: white;
+    padding: 20px;
+    width: 300px;
+    height: 350px;
+    border-width: 10px;
+    
+    
+   
+    
+    
+}
+    
+.content__item1__img, .content__item2__img, .content__item3__img {
+    width: 260px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+   padding-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content__item1:hover, .content__item2:hover, .content__item3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.content__item1__title, .content__item2__title, .content__item3__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(255, 174, 0);
+}
+.content__item1__desc, .content__item2__desc, .content__item3__desc {
+    font-size: 16px;
+    margin-top: 10px;
+    color: white;
+}
+.content__item1__button, .content__item2__button, .content__item3__button {
+    background-color: rgb(255, 174, 0);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.content__item1__button:hover, .content__item2__button:hover, .content__item3__button:hover {
+    background-color: rgba(244, 10, 10, 0.779);
+    color: white;
+    transition: background-color 0.3s ease;
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin:20px;
+    display: inline-block;
+   
+    
+}
+.footer__title {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 174, 0);
+}
+.footer__desc {
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+}
+.contact-form__input, .contact-form__textarea, .contact-form__submit, .contact-form__reset{
+   margin-top: 10px;
+}
+.contact-form__input{
+    padding: 10px;
+    border: none;
+    border-bottom: black solid 1px;
+
+}
+
+
+.contact-form__input:hover{
+    border: rgb(249, 5, 5) solid 3px;
+
+}
+
+.contact-form__textarea{
+    padding: 10px;
+    border: none;
+    border: black solid 1px;
+
+}
+.contact-form__submit, .contact-form__reset{
+    padding: 10px;
+    border: none;
+    background-color: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+.contact-form__submit:hover, .contact-form__reset:hover{
+    background-color: rgb(255, 174, 0);
+    color: black;
+    transition: background-color 0.3s ease;
+}
+.contact-form {
+    background-color: rgb(255, 81, 0);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    margin: 20px auto;
+}
+contact-form__textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    padding: 10px;
+    border: none;
+    border-bottom: black solid 1px;
+}
+.contact-form__textarea:hover {
+    border: rgb(249, 5, 5) solid 3px;
+}
+.footer__bottom__social__link{
+    color: rgb(0, 187, 249);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+}
+.footer__bottom__social__link:hover {
+    color: rgb(255, 174, 0);
+    text-decoration: none;
+}
