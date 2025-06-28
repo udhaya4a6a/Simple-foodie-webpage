@@ -7,6 +7,7 @@ function App() {
                 <h1>Simple Foodie Webpage</h1>
                 <p>Discover delicious recipes and food inspiration!</p>
             </header>
+    /* coder.io */
             <main style={{ maxWidth: '900px', margin: '2rem auto', padding: '1rem' }}>
                 <section>
                     <h2>Featured Recipes</h2>
